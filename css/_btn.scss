@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* Scss Document */
+
+/*hamburger_btn*/
+.ham_btn{
+    display: block;
+    width: 45px;
+    height: 45px;
+	background: rgba(0,0,0,0);
+    cursor: pointer;
+    position: relative;
+    position: absolute;
+	transition: 1s;
+    span{
+        display: block;
+        width: 45px;
+        height: 3px;
+        background:#000;
+        position: absolute;
+		transition: 1s;
+    }
+    .top{
+		top: 5px;
+	}
+	.middle{
+		top: 21px;
+	}
+    .bottom{
+		bottom: 5px;
+	}
+	&.on{
+		.top{
+			margin-left: 20px;
+			opacity: 0;
+		}
+		.bottom{
+			margin-left: 20px;
+			opacity: 0;
+		}
+		.middle{
+			margin-left: 20px;
+			opacity: 0;
+		}
+	}
+}
+@media (min-width: 768px){
+	.ham_btn{
+		display: none;
+	}
+}
+/*close_btn*/
+.ham_close{
+	width: 45px;
+	height: 45px;
+	background: rgba(255,255,255,0);
+	cursor: pointer;
+	position: relative;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	span{
+		width: 45px;
+		height: 3px;
+		background: #fff;
+		position: absolute;
+		transition: 0.8s;
+	}
+	.close1{
+		top: 20px;
+		width: 0;
+		height: 0;
+		opacity: 0;
+		margin-left: -45px;
+		transform: rotate(45deg);
+	}
+	.close2{
+		top: 20px;
+		width: 0;
+		height: 0;
+		opacity: 0;
+		margin-left: -45px;
+		transform: rotate(-45deg);
+	}
+}
+.on{
+	.close1{
+		width: 45px;
+		height: 3px;
+		opacity: 1;
+		margin-left: 0;
+	}
+	.close2{
+		width: 45px;
+		height: 3px;
+		opacity: 1;
+		margin-left: 0;
+	}
+}
+
+/*animation_btn*/
+@keyframes down_button{
+	0%{transform: translateY(0);}
+	100%{transform: translateY(15px);}
+}
+.down{
+	animation: down_button 1s ease-in-out infinite alternate;
+	cursor: pointer;
+}
+.stop{
+	animation-play-state: paused;
+}

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* Scss Document */
+
+//colors
+$primary-color: #616161;
+$p-light-color: #8e8e8e;
+$p-dark-color: #373737;
+$secondary-color: #c30000;
+$color-link: #ff3d00;
+
+//fonts
+@font-face{
+  font-family: "Original Yu Gothic";
+  src: local("Yu Gothic");
+  font-weight: 300;
+}
+@font-face{
+  font-family: "Original Yu Gothic";
+  src: local("Yu Gothic");
+  font-weight: 500;
+}
+@font-face{
+  font-family: "Original Yu Gothic";
+  src: local("Yu Gothic");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Regular");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Regular");
+  font-weight: 200;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "Yu Gothic", YuGothic, "Hiragino Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-feature-settings: "pkna";
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "Original Yu Gothic", "Yu Gothic", YuGothic, "Hiragino Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  }
+}
+body, a{
+	color: $primary-color;
+}
+.en{
+	font-family: 'Crimson Text', serif;
+}
