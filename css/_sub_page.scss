@@ -14,7 +14,7 @@
 	#pc_nav{
 		display: none;
 	}
-	@media (min-width: 768px){
+	@media (min-width: 769px){
 		#pc_nav{
 			display: block;
 			text-align: right;
@@ -296,7 +296,7 @@
 			line-height: 1.8;
 			color: $secondary-color;
 			span:last-child{
-				margin-left: 1rem;				
+				margin-left: 1rem;
 			}
 			@media (min-width: 768px){
 				font-size: 14px;
@@ -583,7 +583,7 @@
 			.flex_inner{
 				width: 50%;
 				border-bottom: 1px solid $secondary-color;
-				
+
 			}
 		}
 		.flex3{

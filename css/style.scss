@@ -33,13 +33,13 @@
 	a{
 		color: #fff;
 	}
-	@media (min-width: 768px){
+	@media (min-width: 769px){
 		width: 16.666%;
-		height: 7.5%;
+		height: 55px;
 		font-size: 1.3rem;
 		background: #fff;
 		a{
-		color: $p-dark-color;	
+		color: $p-dark-color;
 		}
 	}
 }
@@ -77,7 +77,7 @@
 			font-weight: bold;
 		}
 	}
-	@media (min-width: 768px){
+	@media (min-width: 769px){
 		display: block;
 	}
 }
@@ -87,7 +87,7 @@ footer{
 	text-align: center;
 	padding: 20px;
 }
-@media (min-width: 768px){
+@media (min-width: 769px){
 	footer{
 		font-size: 18px;
 		padding: 30px;
@@ -112,7 +112,7 @@ footer{
 		opacity: 0.8;
 		transform: rotateY(360deg);
 	}
-	@media (min-width: 768px){
+	@media (min-width: 769px){
 		width: 55px;
 		height: 55px;
 		font-size: 32px;
@@ -129,7 +129,7 @@ footer{
 	width: 100%;
 	height: 55px;
 	background: rgba(255,255,255,0.6);
-	box-shadow: 0 2px 5px $p-dark-color; 
+	box-shadow: 0 2px 5px $p-dark-color;
 	position: relative;
 	position: fixed;
 	top: -100px;
@@ -266,7 +266,7 @@ footer{
 		}
 	}
 }
-@media (min-width: 768px){
+@media (min-width: 769px){
 	#ham_menu_inner{
 		display: none;
 	}
@@ -311,7 +311,7 @@ footer{
 		height: 60px;
 //		padding: 2.5% 3.3333% 0 0;
 		background: rgba(255,255,255,0.8);
-		box-shadow: 0 2px 5px $p-dark-color; 
+		box-shadow: 0 2px 5px $p-dark-color;
 		position: relative;
 		position: fixed;
 		top: -150px;
@@ -361,7 +361,7 @@ footer{
 }
 
 /*hover*/
-@media (min-width: 768px){
+@media (min-width: 769px){
 	a img{
 	transition: 1s;
 		&:hover{
@@ -381,7 +381,7 @@ footer{
 		height: 100vh;
 		background: $p-dark-color;
 		position: relative;
-		@media (min-width: 768px){
+		@media (min-width: 769px){
 			background: url(../images/pc/top/header_bg.jpg) no-repeat fixed;
 		}
 		h1 img{
@@ -395,7 +395,7 @@ footer{
 			height: 100%;
 			background: rgba(0,0,0,0.7);
 		}
-		@media (min-width: 768px){
+		@media (min-width: 769px){
 			h1 img{
 				margin-left: 0;
 				top: 40px;
@@ -408,7 +408,7 @@ footer{
 			span{
 				display: block;
 			}
-			@media (min-width: 768px){
+			@media (min-width: 769px){
 				display: block;
 				font-size: 30px;
 				color: #fff;
@@ -430,7 +430,7 @@ footer{
 			left: 50%;
 			bottom: 5%;
 			transition: 0.5s;
-			@media (min-width: 768px){
+			@media (min-width: 769px){
 				display: none;
 			}
 		}
@@ -491,14 +491,14 @@ footer{
 		background-image: -webkit-image-set(url(../images/mobile/top/concept_mobile.png) 1x, url(../images/mobile/top/concept_mobile@2x.png) 2x);
 		background-position: bottom;
 		background-repeat: no-repeat;
-		background-size: cover;	
+		background-size: cover;
 		@media(min-width: 768px){
 			width: 100%;
 			height: 1500px;
 			background-image:url(../images/pc/top/concept_pc.JPG);
 			background-position: bottom;
 			background-repeat: no-repeat;
-			background-size: cover;	
+			background-size: cover;
 			background-attachment: fixed;
 		}
 	}
@@ -619,7 +619,7 @@ footer{
 						margin: 0 20px;
 					}
 				}
-			}	
+			}
 		}
 	}
 	#food_menu,
@@ -784,7 +784,7 @@ footer{
 			aside.pc{
 				display: none;
 			}
-			@media (min-width: 768px){
+			@media (min-width: 769px){
 				height: 235px;
 				.name{
 					font-size: 20px;
@@ -820,7 +820,7 @@ footer{
 				left: 0;
 			}
 		}
-		@media (min-width: 768px){
+		@media (min-width: 769px){
 			display: none;
 		}
 	}
@@ -879,7 +879,7 @@ footer{
 	&:hover{
 		opacity: 0.7;
 	}
-	@media (max-width: 768px){
+	@media (max-width: 769px){
 		display: none;
 	}
 }
@@ -897,7 +897,7 @@ footer{
 		width: 100%;
 		height: 50px;
 		background: rgba(255,255,255,0.8);
-		box-shadow: 0 2px 5px $p-dark-color; 
+		box-shadow: 0 2px 5px $p-dark-color;
 		position: relative;
 		position: fixed;
 		top: -150px;
@@ -1002,7 +1002,7 @@ footer{
 }
 
 /*fadeIn animation header*/
-@media (min-width: 768px){
+@media (min-width: 769px){
 	.fadeInDown1{
 		-webkit-animation-fill-mode:both;
 		-ms-animation-fill-mode:both;

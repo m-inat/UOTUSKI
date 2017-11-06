@@ -199,7 +199,7 @@ body, a {
   #sake_list_page #pc_nav,
   #fastidious_dishes_page #pc_nav {
     display: none; }
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     #grand_menu_page #pc_nav,
     #party_course_page #pc_nav,
     #drink_menu_page #pc_nav,
@@ -1019,11 +1019,11 @@ body, a {
   .link_hot a,
   .facebook a {
     color: #fff; }
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     .link_hot,
     .facebook {
       width: 16.666%;
-      height: 7.5%;
+      height: 55px;
       font-size: 1.3rem;
       background: #fff; }
       .link_hot a,
@@ -1058,7 +1058,7 @@ body, a {
       transform: translateY(2px);
       color: #ff3d00;
       font-weight: bold; }
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     .link_btn_pc {
       display: block; } }
 
@@ -1068,7 +1068,7 @@ footer {
   text-align: center;
   padding: 20px; }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   footer {
     font-size: 18px;
     padding: 30px; } }
@@ -1089,7 +1089,7 @@ footer {
   #page_top:hover .fa-chevron-up {
     opacity: 0.8;
     transform: rotateY(360deg); }
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     #page_top {
       width: 55px;
       height: 55px;
@@ -1214,7 +1214,7 @@ footer {
       font-size: 205%;
       margin: 5.2% 3.2% 0 0; }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   #ham_menu_inner {
     display: none; } }
 /*pc_nav*/
@@ -1290,7 +1290,7 @@ footer {
         left: 0; } }
 
 /*hover*/
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   a img {
     transition: 1s; }
     a img:hover {
@@ -1304,7 +1304,7 @@ footer {
   height: 100vh;
   background: #373737;
   position: relative; }
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     #top #header {
       background: url(../images/pc/top/header_bg.jpg) no-repeat fixed; } }
   #top #header h1 img {
@@ -1316,7 +1316,7 @@ footer {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.7); }
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     #top #header h1 img {
       margin-left: 0;
       top: 40px;
@@ -1326,7 +1326,7 @@ footer {
     position: absolute; }
     #top #header .lead span {
       display: block; }
-    @media (min-width: 768px) {
+    @media (min-width: 769px) {
       #top #header .lead {
         display: block;
         font-size: 30px;
@@ -1345,7 +1345,7 @@ footer {
     left: 50%;
     bottom: 5%;
     transition: 0.5s; }
-    @media (min-width: 768px) {
+    @media (min-width: 769px) {
       #top #header .fa-chevron-down {
         display: none; } }
   #top #header .ham_btn {
@@ -1678,7 +1678,7 @@ footer {
       margin-top: 6px; }
   #top #access .info aside.pc {
     display: none; }
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     #top #access .info {
       height: 235px; }
       #top #access .info .name {
@@ -1704,7 +1704,7 @@ footer {
     position: absolute;
     top: 0;
     left: 0; }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   #top aside.mobile {
     display: none; } }
 
@@ -1760,7 +1760,7 @@ footer {
   .slick-prev:before:hover,
   .slick-next:before:hover {
     opacity: 0.7; }
-  @media (max-width: 768px) {
+  @media (max-width: 769px) {
     .slick-prev:before,
     .slick-next:before {
       display: none; } }
@@ -1883,7 +1883,7 @@ footer {
       -ms-transform: translateY(0);
       transform: translateY(0); } } }
 /*fadeIn animation header*/
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .fadeInDown1 {
     -webkit-animation-fill-mode: both;
     -ms-animation-fill-mode: both;
